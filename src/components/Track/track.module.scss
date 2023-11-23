@@ -1,8 +1,11 @@
 .track {
   display: flex;
   align-items: center;
+  padding: 5px 4px 5px 5px;
   width: 100%;
   gap: 20px;
+  border-radius: 5px;
+  background-color: #fbf8fd;
 
   &b {
     letter-spacing: 1px;
@@ -20,7 +23,7 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 4px;
 }
 
 .preview {
